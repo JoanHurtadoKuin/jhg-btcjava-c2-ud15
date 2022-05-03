@@ -1,0 +1,13 @@
+insert into Piezas(Id,Nombre) values(1,"Pieza1"),(2,"Pieza2"),(3,"Pieza3"),(4,"Pieza4"),
+(5,"Pieza5"),(6,"Pieza6"),(7,"Pieza7"),(8,"Pieza8"),(9,"Pieza9"),(10,"Pieza10");
+
+insert into Proveedores(Id,Nombre) values("0001","Proveedor1"),("0002","Proveedor2"),("0003","Proveedor3"),
+("0004","Proveedor4"),("0005","Proveedor5"),("0006","Proveedor6"),("0007","Proveedor7"),("0008","Proveedor8"),
+("0009","Proveedor9"),("0019","Proveedor10");
+
+insert into Suministra(CodigoPieza,IdProveedor,Precio) values(1,"0001",10),(2,"0002",15),(3,"0003",20),(4,"0004",25),
+(5,"0005",30),(6,"0006",35),(7,"0007",40),(8,"0008",45),(9,"0009",50),(10,"0019",1000);
+
+select * from Piezas;
+select * from Proveedores;
+select * from Suministra;

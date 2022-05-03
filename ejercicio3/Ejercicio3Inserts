@@ -1,0 +1,14 @@
+insert into Cientificos(DNI,NomApels) values(12345678,"Manolo"),(22345678,"Pepe"),(32345678,"Paco"),(42345678,"Juan"),
+(52345678,"Joan"),(62345678,"Alba"),(72345678,"Jose"),(82345678,"Dani"),(92345678,"Lola"),(10345678,"Gerard");
+
+insert into Proyecto(Id,Nombre,Horas) values ("0001","Proyecto1",1),("0002","Proyecto2",2),("0003","Proyecto3",3),
+("0004","Proyecto4",4),("0005","Proyecto5",5),("0006","Proyecto6",6),("0007","Proyecto7",7),
+("0008","Proyecto8",8),("0009","Proyecto9",9),("0010","Proyecto10",10);
+
+insert into Asignado_A(Cientifico,Proyecto) values (12345678,"0001"),(22345678,"0002"),(32345678,"0003"),
+(42345678,"0004"),(52345678,"0005"),(62345678,"0006"),(72345678,"0007"),(82345678,"0008"),
+(92345678,"0009"),(10345678,"0010");
+
+select * from Cientificos;
+select * from Proyecto;
+select * from Asignado_A;

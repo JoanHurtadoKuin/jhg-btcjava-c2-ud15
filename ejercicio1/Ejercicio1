@@ -1,0 +1,29 @@
+insert into Despachos(Id, Capacidad) VALUES (1,10);
+insert into Despachos(Id, Capacidad) VALUES (2,5);
+insert into Despachos(Id, Capacidad) VALUES (3,3);
+insert into Despachos(Id, Capacidad) VALUES (4,2);
+insert into Despachos(Id, Capacidad) VALUES (5,15);
+insert into Despachos(Id, Capacidad) VALUES (6,13);
+insert into Despachos(Id, Capacidad) VALUES (7,12);
+insert into Despachos(Id, Capacidad) VALUES (8,11);
+insert into Despachos(Id, Capacidad) VALUES (9,9);
+insert into Despachos(Id, Capacidad) VALUES (10,1);
+
+/*Directores sin Director*/
+insert into Directores(DNI,NomApels,IdDespacho) values 
+(39924412,"Juan",1),
+(39924232,"Antonio",2),
+(35124412,"Pepe",3),
+(44424412,"Juan",4),
+(35924413,"Jose",5);
+
+/*Directores con director*/
+insert into Directores(DNI,NomApels,IdDespacho,DNIjefe) values 
+(39924312,"Joan",6,39924412),
+(39922332,"Antonia",7,39924232),
+(35143412,"Pepa",8,35124412),
+(44474412,"Juanito",9,44424412),
+(35925413,"Joselon",10,35924413);
+
+Select * from Despachos;
+Select * from Directores;

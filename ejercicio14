@@ -1,0 +1,15 @@
+INSERT INTO Usuarios (Contraseña,Nombre,Apellidos,foto) VALUES ("Contraseña","Rudy","Fernandez","D",1);
+INSERT INTO Usuarios (Contraseña,Nombre,Apellidos,foto) VALUES ("Contraseña","Cristiano","Ronaldo","D",1);
+
+INSERT INTO Celebridad(verificado,idUsuarios) VALUES(true,1);
+INSERT INTO Comun(direccion,email,idComun)values("C/Badalona","hola@gmail.com",2);
+
+INSERT INTO Comentarios(texto,imagen,idUsuario) values("Texto de Ejemplo",null,1);
+INSERT INTO Comentarios(texto,imagen,idUsuario) values("Texto de Ejemplo",null,2);
+
+Insert into Grupos(id,nombre) value(1,"Grupo de amigos");
+
+Insert into EsContacto(idUsuario,bloqueado) value(1,false);
+
+Insert into Tienen(idUsuario,idGrupos) value(1,1);
+Insert into Tienen(idUsuario,idGrupos) value(2,1);

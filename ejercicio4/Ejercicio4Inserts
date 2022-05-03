@@ -1,0 +1,14 @@
+insert into Cajeros(NomApels) values("Cajero1"),("Cajero2"),("Cajero3"),("Cajero4"),("Cajero5"),("Cajero6"),("Cajero7"),("Cajero8"),
+("Cajero9"),("Cajero10");
+
+insert into Productos(Nombre,Precio)values("Producto1",1),("Producto2",2),("Producto3",3),("Producto4",4),("Producto5",5),
+("Producto6",6),("Producto7",7),("Producto8",8),("Producto9",9),("Producto10",10);
+
+insert into Maquinas_Registradoras(Piso)values(1),(2),(3),(4),(1),(2),(3),(4),(1),(2);
+
+insert into Venta(Cajero,Maquina,Producto)values(1,1,1),(2,2,2),(3,3,3),(4,4,4),(5,5,5),(6,6,6),(7,7,7),(8,8,8),(9,9,9),(10,10,10);
+
+select * from Cajeros; 
+select * from Productos;
+select * from Maquinas_Registradoras;
+select * from Venta;
